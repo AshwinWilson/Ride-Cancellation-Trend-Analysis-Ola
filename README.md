@@ -126,4 +126,20 @@ The visuals are segregated into five meaningful sections:
 ### 🔹 Customer vs Driver Ratings
 ![4](https://github.com/user-attachments/assets/14e633db-4d77-4078-9c15-78d0b6c75bf2)
 
+---
+
+## Project Summary:
+This OLA Data Analyst Project provided a comprehensive opportunity to simulate a real-world ride-booking business scenario and apply core data analytics concepts. By working with a large, structured dataset and deriving insights through SQL and Power BI, I was able to replicate key business metrics and KPIs relevant to mobility services.
+
+## Key Learnings:
+
+- **Data Modeling**: Understood how to structure and clean raw transactional data for analysis and visualization purposes.
+- **SQL Mastery**: Practiced writing complex queries including aggregations, groupings, conditional filters, and views to extract actionable insights.
+- **Business Understanding**: Gained clarity on how ride-booking platforms operate, especially regarding booking patterns, cancellations, ratings, and customer behavior.
+- **Power BI Proficiency**: Built an interactive and dynamic dashboard using Power BI, integrating slicers, charts, and storytelling techniques to present insights in a meaningful way.
+- **Data-Driven Decision Making**: Identified trends such as peak booking days, high-value customers, and key reasons for service disruptions, enabling potential improvements for operations.
+- **Project Structuring & Documentation**: Learned how to organize a data project for portfolio readiness, including documentation, folder structure, visual assets, and GitHub hosting.
+
+This project strengthened my overall analytical thinking and hands-on proficiency in SQL and Power BI, and it showcased how technical tools can be applied to solve business problems through data.
+
 
