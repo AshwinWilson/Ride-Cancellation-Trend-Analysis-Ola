@@ -102,17 +102,17 @@ The visuals are segregated into five meaningful sections:
 > 📌 These visuals are generated in Power BI and reflect key performance indicators and ride behavior patterns.
 
 ### 🔹 Booking Status Breakdown
-![Booking Status](visuals/booking_status.png)
+![Booking Status](Ride-Cancellation-Trend-Analysis-Ola/1.png)
 
 ### 🔹 Ride Volume Over Time
-![Ride Volume](visuals/ride_volume.png)
+![Ride Volume](Ride-Cancellation-Trend-Analysis-Ola/2.png)
 
 ### 🔹 Top Vehicle Types by Distance
-![Vehicle Distance](visuals/vehicle_distance.png)
+![Vehicle Distance](Ride-Cancellation-Trend-Analysis-Ola/3.png)
 
 ### 🔹 Revenue by Payment Method
-![Revenue](visuals/revenue_payment.png)
+![Revenue](Ride-Cancellation-Trend-Analysis-Ola/4.png)
 
 ### 🔹 Customer vs Driver Ratings
-![Rating Comparison](visuals/rating_comparison.png)
+![Rating Comparison](Ride-Cancellation-Trend-Analysis-Ola/5.png)
 
