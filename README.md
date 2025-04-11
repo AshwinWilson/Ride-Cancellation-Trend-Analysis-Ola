@@ -68,3 +68,51 @@ FROM bookings WHERE Booking_Status = "Success";
 -- 10. Incomplete rides with reason
 SELECT Booking_ID, Incomplete_Rides_Reason 
 FROM bookings WHERE Incomplete_Rides = "Yes";
+```
+
+## 📊 Power BI Dashboard Insights
+
+The visuals are segregated into five meaningful sections:
+
+### 🧭 Overall
+- 📈 Ride Volume Over Time
+- 🧾 Booking Status Breakdown
+
+### 🚗 Vehicle Insights
+- 🚘 Top 5 Vehicle Types by Ride Distance
+
+### 💰 Revenue Insights
+- 💳 Revenue by Payment Method
+- 👑 Top 5 Customers by Booking Value
+- 📍 Ride Distance Distribution Per Day
+
+### ❌ Cancellation Analysis
+- ❎ Cancelled Ride Reasons (Customer)
+- ❌ Cancelled Ride Reasons (Drivers)
+
+### 🌟 Rating Insights
+- ⭐ Driver Ratings
+- 🌟 Customer Ratings
+- 🔁 Customer vs Driver Ratings (Scatter Comparison)
+
+---
+
+## 📷 Dashboard Screenshots
+
+> 📌 These visuals are generated in Power BI and reflect key performance indicators and ride behavior patterns.
+
+### 🔹 Booking Status Breakdown
+![Booking Status](visuals/booking_status.png)
+
+### 🔹 Ride Volume Over Time
+![Ride Volume](visuals/ride_volume.png)
+
+### 🔹 Top Vehicle Types by Distance
+![Vehicle Distance](visuals/vehicle_distance.png)
+
+### 🔹 Revenue by Payment Method
+![Revenue](visuals/revenue_payment.png)
+
+### 🔹 Customer vs Driver Ratings
+![Rating Comparison](visuals/rating_comparison.png)
+
