@@ -3,8 +3,14 @@
 This project simulates and analyzes 1 month of ride-booking data for OLA Cabs in Bengaluru. Using SQL and Power BI, we dive into customer behavior, booking trends, cancellation patterns, and business KPIs.
 
 ---
+## Tools Used
+**SQL (MySQL / PostgreSQL)** – For data querying, filtering, aggregation
 
-## 🧾 Dataset Overview
+**Power BI Desktop** – For dashboards, charts, KPIs, storytelling
+
+**Microsoft Excel / CSV** – For initial data handling and prep
+
+## Dataset Overview
 
 The dataset includes over **100,000** records with fields such as:
 - Date, Time, Booking ID, Customer ID
@@ -16,7 +22,7 @@ The dataset includes over **100,000** records with fields such as:
 - Booking value, payment method, ride distance
 - Driver & Customer Ratings
 
-### 📌 Smart Constraints:
+### Smart Constraints:
 - 62% success rate
 - <7% cancellations by customer
 - <18% cancellations by driver
@@ -25,7 +31,7 @@ The dataset includes over **100,000** records with fields such as:
 
 ---
 
-## 🧠 SQL Analysis
+## SQL Analysis
 
 All queries run on the `bookings` table.
 
@@ -70,49 +76,54 @@ SELECT Booking_ID, Incomplete_Rides_Reason
 FROM bookings WHERE Incomplete_Rides = "Yes";
 ```
 
-## 📊 Power BI Dashboard Insights
+## Power BI Dashboard Insights
 
 The visuals are segregated into five meaningful sections:
 
 ### 🧭 Overall
-- 📈 Ride Volume Over Time
-- 🧾 Booking Status Breakdown
+- Ride Volume Over Time
+- Booking Status Breakdown
 
 ### 🚗 Vehicle Insights
-- 🚘 Top 5 Vehicle Types by Ride Distance
+- Top 5 Vehicle Types by Ride Distance
 
 ### 💰 Revenue Insights
-- 💳 Revenue by Payment Method
-- 👑 Top 5 Customers by Booking Value
-- 📍 Ride Distance Distribution Per Day
+- Revenue by Payment Method
+- Top 5 Customers by Booking Value
+- Ride Distance Distribution Per Day
 
 ### ❌ Cancellation Analysis
-- ❎ Cancelled Ride Reasons (Customer)
-- ❌ Cancelled Ride Reasons (Drivers)
+- Cancelled Ride Reasons (Customer)
+- Cancelled Ride Reasons (Drivers)
 
 ### 🌟 Rating Insights
-- ⭐ Driver Ratings
-- 🌟 Customer Ratings
-- 🔁 Customer vs Driver Ratings (Scatter Comparison)
+- Driver Ratings
+- Customer Ratings
+- Customer vs Driver Ratings (Scatter Comparison)
 
 ---
 
 ## 📷 Dashboard Screenshots
 
-> 📌 These visuals are generated in Power BI and reflect key performance indicators and ride behavior patterns.
+> These visuals are generated in Power BI and reflect key performance indicators and ride behavior patterns.
 
 ### 🔹 Booking Status Breakdown
-![Booking Status](Ride-Cancellation-Trend-Analysis-Ola/1.png)
+![1](https://github.com/user-attachments/assets/a19a8923-5d47-435d-af1a-3bb051902dd2)
 
-### 🔹 Ride Volume Over Time
-![Ride Volume](Ride-Cancellation-Trend-Analysis-Ola/2.png)
+
+### 🔹 Rating by Vehicle Type
+![5](https://github.com/user-attachments/assets/9b7d4557-40b6-4df0-b949-8a2880f8c353)
+
 
 ### 🔹 Top Vehicle Types by Distance
-![Vehicle Distance](Ride-Cancellation-Trend-Analysis-Ola/3.png)
+![2](https://github.com/user-attachments/assets/09347674-5036-4dd2-ae7e-26694db23abe)
+
 
 ### 🔹 Revenue by Payment Method
-![Revenue](Ride-Cancellation-Trend-Analysis-Ola/4.png)
+![3](https://github.com/user-attachments/assets/0fd6846e-3661-40fd-abd9-60df21111554)
+
 
 ### 🔹 Customer vs Driver Ratings
-![Rating Comparison](Ride-Cancellation-Trend-Analysis-Ola/5.png)
+![4](https://github.com/user-attachments/assets/14e633db-4d77-4078-9c15-78d0b6c75bf2)
+
 
