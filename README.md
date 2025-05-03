@@ -112,7 +112,8 @@ The visuals are segregated into five meaningful sections:
 
 
 ### 🔹 Rating by Vehicle Type
-![5](https://github.com/user-attachments/assets/9b7d4557-40b6-4df0-b949-8a2880f8c353)
+![5](https://github.com/user-attachments/assets/c91595d5-bd4c-46ec-976f-d99551a1320e)
+
 
 
 ### 🔹 Top Vehicle Types by Distance
